@@ -27,6 +27,9 @@ public class Cambio implements Serializable {
         this.environment = environment;
     }
 
+    public Cambio(long id, String from, String to, BigDecimal one, BigDecimal one1) {
+    }
+
     public Long getId() {
         return id;
     }
